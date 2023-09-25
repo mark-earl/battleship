@@ -45,7 +45,7 @@ def main():
         opponent_has_hit_player_ship = opponent_move[0]
 
         opponent_moves.append(x_y)
-        
+
         if opponent_has_hit_player_ship:
             opponent_win_condition += 1
         pygame.display.flip()
